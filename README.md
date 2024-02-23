@@ -38,6 +38,33 @@ Stop
 
 ## Program:
 
+Developed by: M.CHANDRU
+
+Register no: 212222230026
+
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NewBehaviourScript : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.left, Vector3.down,200 * Time.deltaTime);
+    }
+}
+```
+
 ## Output:
+![image](https://github.com/chandrumathiyazhagan/Rotating-the-Gaming-Object/assets/119393023/5189d57a-2738-4e0d-bd2f-96257598b765)
 
 ## Result:
+Hence the 3D application for rotating the gaming objects in unity is developed successfully.
